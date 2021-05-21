@@ -7,16 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://stark-cad.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>YC Demo</title>
+      <title>Demo</title>
       <link>https://stark-cad.github.io/early-demo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://stark-cad.github.io/early-demo/</guid>
-      <description>Table of Contents  Demo 2  Screenshot   Demo 1  Demo Video Interface Sketch      Further updates forthcoming&amp;hellip;
-Demo 2 [04-23] Video coming shortly
-Screenshot Demonstrates arbitrary line drawing by the user, in this case to display an impossible triangle
-  Demo 1 Demo Video Shows Sail interpreter, basic graphics, and how they connect
-  Interface Sketch Concepts for 2D workspace editing, 3D part editing, and text editing</description>
+      <description>Table of Contents  Demo 2  Demo Video Screenshot   Demo 1  Demo Video Interface Sketch      Further updates forthcoming&amp;hellip;
+Demo 2 Demo Video Demonstrates graphics, a REPL, and keyboard controlled drawing / diagramming
+  Screenshot Example of arbitrary line drawing by the user, in this case to display an impossible triangle
+ Demo 1 Demo Video Shows Sail interpreter, basic graphics, and how they connect</description>
     </item>
     
   </channel>
