@@ -21,26 +21,12 @@ Screenshot Example of arbitrary line drawing by the user, in this case to displa
     </item>
     
     <item>
-      <title>Demo</title>
-      <link>https://stark-cad.github.io/early-demo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://stark-cad.github.io/early-demo/</guid>
-      <description>Table of Contents  Demo 2  Demo Video Screenshot   Demo 1  Demo Video Interface Sketch      Source code available at https://github.com/stark-cad/stark
-Further updates forthcoming&amp;hellip;
-Demo 2 Demo Video Demonstrates graphics, a REPL, and keyboard controlled drawing / diagramming
-{{&amp;lt; youtube GofOnNNpY8M &amp;gt;}}
-Screenshot Example of arbitrary line drawing by the user, in this case to display a Penrose triangle
- Demo 1 Demo Video Shows Sail interpreter, basic graphics, and how they connect</description>
-    </item>
-    
-    <item>
       <title>Devlog</title>
       <link>https://stark-cad.github.io/devlog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://stark-cad.github.io/devlog/</guid>
-      <description>2022-03-02 I laid out the general interface architecture. Each &amp;ldquo;chunk&amp;rdquo; in a structure has its own editing context, or set of permissible operations on the artifact the chunk represents. A STARK terminal provides human and network interfaces. The human interface allows the individual using the program to dispatch operations, while the network interface receives and dispatches operations from other terminals. The human interface includes input device mappings and graphical elements as needed, which ease access to permitted operations.</description>
+      <description>2022-03-03 I took another step towards a clear plan for structure representation. While design information should generally exist in unstructured chunk meshes, some organization is reasonable at the architecture level. It is often useful to have clear divisions between structures that pertain to different concepts. Just like individuals use distinct notebooks or binders for distinct projects, we should be free to create distinct conceptual structures. As currently envisioned, chunks in different structures cannot depend on, include, query, or affect one another.</description>
     </item>
     
     <item>

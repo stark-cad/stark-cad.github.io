@@ -33,6 +33,27 @@
       
 
 <h1>Devlog</h1>
+<h2 id="2022-03-03">2022-03-03</h2>
+<p>I took another step towards a clear plan for structure
+representation. While design information should generally exist in
+unstructured chunk meshes, some organization is reasonable at the
+architecture level. It is often useful to have clear divisions between
+structures that pertain to different concepts. Just like individuals
+use distinct notebooks or binders for distinct projects, we should be
+free to create distinct conceptual structures. As currently
+envisioned, chunks in different structures cannot depend on, include,
+query, or affect one another. This separation is the only structured
+aspect of the data format itself.</p>
+<p>With this choice to permit fully separate collections of chunks,
+STARK&rsquo;s internal structure format is laid out at a high level. It is
+vital to support editing by multiple individuals from the beginning,
+so I proceeded to consider the workings of sharing and access
+control. Ideally, multiple people can make portions of the structures
+they work with reflect each other. There are many questions to answer
+surrounding which data is sent between computers, how presence
+information is communicated, and how groups of people coordinate. For
+the moment, I think that collaboration will happen at the chunk level,
+with each chunk containing relevant data.</p>
 <h2 id="2022-03-02">2022-03-02</h2>
 <p>I laid out the general interface architecture. Each &ldquo;chunk&rdquo; in a
 structure has its own editing context, or set of permissible
